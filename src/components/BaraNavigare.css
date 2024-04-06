@@ -61,6 +61,10 @@
   .nav-links:hover {
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
+    line-height: 50px;
+    list-style-type: none;
+    margin: 20px 0;
+    text-decoration: none;
   }
   
   .fa-bars {
