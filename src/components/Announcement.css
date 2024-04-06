@@ -1,0 +1,30 @@
+/* Announcement.css */
+
+.announcement {
+    display: inline-block;
+    width: 70vw; 
+    max-width: 300px; 
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .announcement-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .announcement-content {
+    padding: 10px;
+  }
+  
+  .announcement-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .announcement-description {
+    font-size: 14px;
+    margin: 0;
+  }
