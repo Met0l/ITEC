@@ -7,7 +7,7 @@ img{
 }
 
 .hero-container{
-    background: url('/colegiul_national_Decebal_h1.jpg') center center/cover no-repeat;
+    /* background: url('/colegiul_national_Decebal_h1.jpg') center center/cover no-repeat; */
     height: 100vh;
     width: 100%;
     display: flex;

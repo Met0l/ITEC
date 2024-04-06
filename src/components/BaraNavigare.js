@@ -25,7 +25,7 @@ function Navbar(){
                 <div className="navbar-container"></div>
                     <Link to="/" className='navbar-logo'>
                         <img src="" alt="CND-logo"/>
-                        CND <i class="fa-solid fa-circle"></i>
+                        CND <i className="fa-solid fa-circle"></i>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
