@@ -3,6 +3,9 @@ import  Navbar from './components/BaraNavigare'
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
+import Education from './components/pages/Education';
+import News from './components/pages/News';
+
 
 function App() {
   return (
@@ -10,7 +13,9 @@ function App() {
       <Router>
         <Navbar />
         <Routes> 
-          <Route path='/' element={<Home/>}/>
+          <Route path='/' element={<Home/>} />
+          <Route path='/educatie' element={<Education/>} />
+          <Route path='/noutati' element={<News/>} />
         </Routes>
       </Router>
     </>
