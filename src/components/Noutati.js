@@ -1,10 +1,11 @@
 import React from 'react';
 import '../App.css';
 import Announcement from './Announcement';
+import './Noutati.css';
 
 function Noutati() {
   return (
-    <div className="hero-container">
+    <div className="news-container">
       <Announcement
         imageSrc="../Orar_11.jpg"
         title="Orare sem 2"
