@@ -1,30 +1,28 @@
-/* Announcement.css */
 
-.announcement {
-    display: inline-block;
-    width: 800px; 
-    max-width: 300px; 
-    margin: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
+  .announcement {
+    display: inline-block; /* Display announcements inline */
+    width: calc(50% - 20px); /* Set width for each announcement, subtracting margin */
+    margin: 10px; /* Add margin for spacing */
+    background-color: #f9f9f9; /* Example background color */
+    border-radius: 8px; /* Example border radius */
   }
   
   .announcement-image {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border-top-left-radius: 8px; /* Ensure rounded corners for the image */
+    border-top-right-radius: 8px;
   }
   
   .announcement-content {
-    padding: 15px;
+    padding: 20px; /* Add padding for content */
   }
   
   .announcement-title {
-    font-size: 30px;
-    margin-bottom: 10px;
+    margin: 0; /* Remove default margin */
+    font-size: 20px; /* Example font size */
   }
   
   .announcement-description {
-    font-size: 14px;
-    margin: 0;
+    margin: 10px 0; /* Add margin for spacing */
   }

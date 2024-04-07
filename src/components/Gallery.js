@@ -4,9 +4,9 @@ import './Gallery.css';
 
 function Gallery() {
   const galleryData = [
-    { src: 'image1.jpg', title: 'Title 1' },
-    { src: 'image2.jpg', title: 'Title 2' },
-    { src: 'image3.jpg', title: 'Title 3' },
+    { src: '1.jpg', title: 'Echipe robotica' },
+    { src: '2.jpg', title: 'Programul EPAS' },
+    { src: '3.jpg', title: 'ERASMUS+' },
   ];
 
   return (

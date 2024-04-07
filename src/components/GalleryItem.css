@@ -1,0 +1,19 @@
+.gallery-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden; /* Ensure images don't overflow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  }
+  
+  .gallery-item img {
+    width: 100%; /* Make images fill their container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the entire container with the image */
+  }
+  
+  .gallery-item h3 {
+    margin: 0; /* Remove default margin */
+    padding: 10px; /* Add padding for title */
+    font-size: 18px; /* Set font size */
+    text-align: center; /* Center align text */
+  }
