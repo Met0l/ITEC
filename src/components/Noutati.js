@@ -6,8 +6,9 @@ import './Noutati.css';
 function Noutati() {
   return (
     <div className="news-container">
+      
       <Announcement
-        imageSrc="../Orar_11.jpg"
+        imageSrc="../public/Orar_11.jpeg"
         title="Orare sem 2"
         description="Orarele pe semestrul 2 al anului scolar 2023-2024 au fost postate."
       />

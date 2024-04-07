@@ -21,6 +21,7 @@ function Footer() {
         <div className="footer-section">
           <h3>Parteneri</h3>
           <p>Farmacia Remedia</p>
+          {/* <img src="/remedia-logo.png"/> */}
         </div>
       </div>
       <div className="footer-bottom">
