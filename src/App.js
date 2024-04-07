@@ -5,7 +5,7 @@ import './App.css';
 import Home from './components/pages/Home';
 import Education from './components/pages/Education';
 import News from './components/pages/News';
-import Media from './components/pages/Media';
+// import Media from './components/pages/Media';
 import Extracur from './components/pages/Extracur';
 import Footer from './components/Footer';
 

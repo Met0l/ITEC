@@ -24,7 +24,6 @@ function Navbar(){
             <nav className="navbar">
                 <div className="navbar-container"></div>
                     <Link to="/" className='navbar-logo'>
-                        <img src="" alt="CND-logo"/>
                         {/* CND <i className="fa-solid fa-circle"></i> */}
                         CND 
                     </Link>

@@ -9,7 +9,10 @@ function Oferta() {
         <h1 className='offer-header'>Invatamant prescolar (3-6 ani)</h1>
         <ul className='offer-list'>
           <li className='offer-item'>
-            2 grupe cu predare in limba germana
+            20 locuri - gradinita cu program prelungit, predare in limba germana
+          </li>
+          <li className='offer-item'>
+            20 locuri - gradinita cu program normal, predare in limba germana
           </li>
         </ul>
       </div>
@@ -17,7 +20,7 @@ function Oferta() {
         <h1 className='offer-header'>Invatamant primar (7-10 ani)</h1>
         <ul className='offer-list'>
           <li className='offer-item'>
-            2 clase cu predare in limba germana
+            50 locuri - clasa pregatitoare pentru scoala (clasa 0), predare in limba germana
           </li>
         </ul>
       </div>
@@ -25,10 +28,10 @@ function Oferta() {
         <h1 className='offer-header'>Invatamant gimnazial (11-14 ani)</h1>
         <ul className='offer-list'>
           <li className='offer-item'>
-            2 clase cu predare in limba romana
+            58 locuri - clasa a 5-a cu predare intensiva in limba engleza
           </li>
           <li className='offer-item'>
-            2 clase cu predare in limba germana
+           58 locuri - clasa a 5-a cu predare in limba germana
           </li>
         </ul>
       </div>
@@ -36,25 +39,25 @@ function Oferta() {
         <h1 className='offer-header'>Invatamant liceal (15-18 ani)</h1>
         <ul className='offer-list'>
           <li className='offer-item'>
-            1 clasa de matematica informatica bilingv engleza
+            26 locuri - matematica informatica bilingv engleza
           </li>
           <li className='offer-item'>
-            1 clasa de matematica informatica intensiv informatica
+            26 locuri - matematica informatica intensiv informatica
           </li>
           <li className='offer-item'>
-            1 clasa de stiinte ale naturii bilingv engleza
+            26 locuri - stiinte ale naturii bilingv engleza
           </li>
           <li className='offer-item'>
-            1 clasa de stiinte ale naturii bilingv germana
+            13 locuri - stiinte ale naturii bilingv germana
           </li>
           <li className='offer-item'>
-            1 clasa de stiinte ale naturii cu predare in limba germana
+            13 locuri - stiinte ale naturii bilingv franceza
           </li>
           <li className='offer-item'>
-            1 clasa de filologie bilingv engleza
+            13 locuri - filologie bilingv engleza
           </li>
           <li className='offer-item'>
-            1 clasa de filologie bilingv franceza
+            13 locuri - filologie bilingv franceza
           </li>
         </ul>
       </div>

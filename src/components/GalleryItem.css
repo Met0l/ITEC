@@ -1,19 +1,22 @@
 .gallery-item {
+    width:auto;
+    height: auto;
     border: 1px solid #ccc;
     border-radius: 8px;
-    overflow: hidden; /* Ensure images don't overflow */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
   
   .gallery-item img {
-    width: 100%; /* Make images fill their container */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Cover the entire container with the image */
+    width: 45%;
+    height: 20vh;
+    object-fit: cover;
   }
   
   .gallery-item h3 {
-    margin: 0; /* Remove default margin */
-    padding: 10px; /* Add padding for title */
-    font-size: 18px; /* Set font size */
-    text-align: center; /* Center align text */
+    margin: 0;
+    padding: 20px; 
+    font-size: 20px; 
+    text-align: center; 
   }
+  
