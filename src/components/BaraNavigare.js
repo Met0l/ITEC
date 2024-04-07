@@ -47,11 +47,11 @@ function Navbar(){
                                 Noutati
                             </Link>
                         </li>
-                        <li className='nav-item'>
+                        {/* <li className='nav-item'>
                             <Link to='/media' className='nav-links' onClick={closeMobileMenu}>
                                 Media
                             </Link>
-                        </li>
+                        </li> */}
                         <li className='nav-item'>
                             <Link to='/extracurriculare' className='nav-links' onClick={closeMobileMenu}>
                                 Extracurriculare

@@ -19,7 +19,7 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/educatie' element={<Education/>} />
           <Route path='/noutati' element={<News/>} />
-          <Route path='/media' element={<Media/>} />
+          {/* <Route path='/media' element={<Media/>} /> */}
           <Route path='/extracurriculare' element={<Extracur/>} />
         </Routes>
         <Footer/>
